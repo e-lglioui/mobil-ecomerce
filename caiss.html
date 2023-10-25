@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--description de la page-->
+     <meta name="description" content="YOUR Shope Decouvrez une experience de shopping
+      en ligne unique, specialement concue pour toutes
+      les femmes qui aiment se sentir belles et confiantes au quotidien. ">
+    <!--la responsive ,page adaptatif-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--link font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--css file-->
+     <link rel="stylesheet" href="../css/detail.css">
+     <link rel="stylesheet" href="../css/caiss.css">
+     <!--css normalize-->
+     <link rel="stylesheet" href="css/normalize.css">
+     <!--google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400&display=swap" rel="stylesheet">
+    <!--font de logo--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400&display=swap" rel="stylesheet">
+ <!--titre de site-->
+    <title>detail de produit</title>
+</head>
+<body> 
+    <header class="header flex">
+        <a href="../index.html" class="logo"><span>YOU</span>Shope</a>
+
+            <nav class="navbar flex">
+                <i class="fa-solid fa-bars" id="menu"></i></li>
+                <div class="test">
+                <ul class="navbar_liste flex">
+                    <li class="navbar_toggle"><i class="fa-solid fa-bars" id="bar"></i></li>
+                    <li class="nav-link"><a class="home_page activ" href="#">home</a></li>
+                   <li class="nav-link"><a class="shop_page" href="#">Shop</a></li>
+                   <li class="nav-link"><a class="blog_page" href="#">Blog</a></li>
+                   <li class="nav-link"><a class="story_page" href="#">Our story</a></li>
+                <!--searche icon-->
+              <li class="nav-link"><a><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                <!--shopping car icon-->
+              <li class="nav-link"><a class="panier" href="html/panier.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                <!--log in -->
+                <li class="nav-link"><a class="login" href="html/login.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+            </ul>
+                </div>
+            </nav>
+        
+    </header>
+ <main>
+      <div class="personnel">
+  
+    <form name="personnelForme">
+      <h2>information personnel</h2>
+    <div class="personnel__nom inputbox">
+    <input class="nom" type="text" required="required" name="Nom">
+    <span>Nom*</span>
+    </div>
+    <div class="personnel__prenom inputbox">
+    <input class="prenom" type="text"  required="required" name="Prenom" >
+    <span>Prenom*</span>
+    </div>
+    <div class="personnel__type inputbox">
+      <select id="type" name="type">
+        <option value="type" disabled="disabled">type</option>
+        <option value="Femme">Femme</option>
+        <option value="Homme">Homme</option>
+    </select>
+
+      </div>
+      <div class="personnel__email inputbox"> 
+    <input class="email" type="email"  required="required" name="Email" id="e">
+    <span>email*</span>
+      </div>
+    <div class="personnel__tel inputbox"> 
+    <input class="tel" type="tel"  required="required" name="Tel">
+    <span>Telephone*</span>
+     </div>
+    </form>
+     </div>
+     <div class="Adresse">
+      <form name="AdresseForm">
+        <h2 class="Adresse__titre">Adresse</h2>
+     <div class="Adresse__pays inputbox">
+      <select id="pays" name="pays">
+        <option value="pays" disabled="disabled">Pays</option>
+        <option value="maroc">Maroc</option>
+          <option value="France">France</option>
+          <option value="Allemagne">Allemagne</option>
+          <option value="Espagne">Espagne</option>
+      </select>
+
+     </div>
+     <div class="Adresse__region inputbox">
+    <input class="region" type="text"  required="required" name="region">
+    <span>Region*</span>
+     </div>
+     <div class="Adresse__code-postal inputbox">
+    <input class="postal" type="text"  required="required" name="postal">
+    <span>code postal*</span>
+     </div>
+     <div class="Adresse__code-postal inputbox">    
+   <textarea id="adress" class="adress" rows="4" cols="30" name="adress">
+  </textarea>
+  <span>adress*</span>
+
+     </div>
+    </form>
+     </div>
+     <div class="payment">
+      <form action="">
+        <h2>paiment:</h2>
+       <input type="radio" name="paypal">
+       <label for="">paypal</label><br>
+       <input type="radio" name="paypal">
+       <label for="googlepay">googlepay</label><br>
+       <input type="radio" name="paypal">
+       <label for="visacart">visa cart</label><br>
+
+      </form>
+    </div>
+    <a href="confermation.html" class="btn-confermer">confermer</a>
+ </main>
+<script src="../js/caiss.js"></script>
+
+
+</body>
+</html>
