@@ -1,0 +1,73 @@
+
+main{
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputbox{
+    position: relative;
+   
+}
+.inputbox span{
+    position: absolute;
+    left: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0,5s;
+}
+
+.inputbox input:valid~span,
+.inputbox input:focus~span{
+    color: #A18A68;
+    transform: translateX(10px) translateY(-10px);
+    font-size: 0.9em;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.personnel,
+.Adresse
+{
+    width: 360px;
+    height: 450px;
+    border: #945D0C 2px solid;
+}
+.payment{
+    width: 300px;
+    height: 300px;
+    border: #945D0C 2px solid;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    height: 80%; 
+    align-items: center;
+}
+ input,select,textarea
+  {
+    padding: 10px;
+    border: solid 2px #945D0C ;
+    border-radius: 5px;
+    outline:none;
+}
+h2{
+    border: #945D0C 2px solid;
+   
+    padding: 10px;
+}
+.btn-confermer{
+    color: #fff;
+    background-color:#945D0C ;
+    padding: 10px;
+    border: 2PX solid;
+    border-radius: 5px;
+}
+.btn-confermer:hover{
+    color:#945D0C;
+    background-color:#fff;
+    padding: 10px;
+    border: 2PX solid;  
+}
