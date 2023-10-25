@@ -1,0 +1,350 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    margin: 0px 5%;
+}
+.flex{
+  display: flex;
+}
+h3{
+    font-family: 'Allerta Stencil', sans-serif;
+    color:#686AA1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px;
+    
+}
+.header {
+height: 100px;
+}
+.logo{
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #A18A68;
+    position: fixed;
+    top: 30px;
+    background-color: #fff;
+    
+}
+.logo span{
+    color: #686AA1;
+}
+.fa-bars{
+    position: fixed;
+    top: 30px;
+    left:90% ;
+    background-color: #fff;
+}
+
+.navbar{
+height: 100vh;
+width: 50vw;
+position:fixed;
+top: 0px;
+left: 50%;
+
+
+}
+.test{
+    display: none;
+   width: 100%;
+   background-color: #decfb8;
+}
+.navbar_liste{
+display: flex;
+ height: 80%;
+flex-direction: column;
+justify-content: space-around;
+}
+.navbar_liste a{
+    color: #000000;
+   line-height:27px;
+}
+a:hover{
+    color: #494dc3;
+    line-height:32px; 
+    font-size: large;
+}
+ li .activ{
+    color: #494dc3;
+    line-height:32px; 
+    font-size: large;
+}
+.produit__desc{
+  display: none;
+}
+.produit__name{
+  color: #000000;
+}
+.produit__slid{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 275px;
+}
+.produit__prinsipal{
+    margin: 10px;
+}
+.fa-heart{
+    color:#eeb1b1 ;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.fa-heart:hover{
+    color:#bd1818 ;
+    font-size: 30px;
+}
+.star{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+.produit__prix{
+    color:#7b4e0c;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.information{
+ justify-content: space-around;
+}
+
+
+.produit__panierLink{
+    color: #7b4e0c;
+    padding: 10px;
+    border: solid 1px #7b4e0c;
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+}
+
+.palett{
+    width: 136px;
+    height: 85px;
+    border: solid 2px #A18A68 ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.color__palett{
+    width: 23px;
+    height: 23px;
+    border-radius: 23px;
+    margin: 5px;
+}
+.color1{
+    background-color:#D0B58D ;
+}
+.color2{
+    background-color:#A18A68;
+}
+.color3{
+    background-color:#827878;
+}
+.color4{
+    background-color:#686AA1 ;
+}
+.color5{
+    background-color:#707070;
+}
+.color6{
+    background-color:#D2C6C6;
+}
+.color7{
+    background-color:#d58888;
+}
+.color8{
+    background-color:#5872e4;
+}
+
+.tailQantite__xl{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+  
+}
+.tailQantite__x{
+    width: 20PX;
+    border: #000000 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.detail{
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+.tailQantite{
+    width:90% ;
+    margin: 10px;
+}
+.quantete-inf__output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.quantete-inf{
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    border: solid 1px #5872e4;
+}
+.quantete-inf__plus{
+    color:#fff;
+    background-color: #5872e4;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.quantete-inf__moin{
+    color:#fff;
+    background-color: #d40a0a;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.quantete-inf__nuber{
+  padding: 20px;  
+}
+.acheter-avec__titre{
+   font-size: 20px;
+   color: #7b4e0c; 
+}
+.commentaire__profil{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media  (min-width: 600px) {
+
+    header{
+     display: flex;
+     padding: 0px 30px;   
+     justify-content: space-between;
+     align-items: center;
+    }
+    .navbar{
+    position:static;
+    height: 300px;
+     width: 50%;
+     padding: 10px 30px;    
+     cursor: pointer;
+     background-color: #fff;
+    }
+    .navbar_liste{
+        display: flex;
+    flex-direction: row;
+        width:100%;
+        padding: 10px 30px;   
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .navbar_liste a{
+        color: #000000;
+       line-height:27px;
+    }
+    a:hover{
+        color: #494dc3;
+        line-height:32px; 
+        font-size: large;
+    }
+     li .activ{
+        color: #494dc3;
+        line-height:32px; 
+        font-size: large;
+    }
+    .fa-bars{
+        display: none;
+    }
+    /*loge*/
+    .logo{
+        font-family: 'Allerta Stencil', sans-serif;
+        color: #A18A68;
+        position: static;
+        font-size:x-large;
+    }
+    .logo span{
+        color: #686AA1;
+    }
+    .produit__desc{
+        display: block;
+        margin: 20px;
+    }
+    .produit__name{
+        margin: 10px;
+    }
+    .produit-desc p{
+        text-align: center ;
+    
+    }
+    .SKU{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .code{
+        color:#322f2f;
+        margin:20px;
+    }
+
+    .produit__panier{
+        display: flex;
+        justify-content: space-around;
+    }
+
+.produit-desc{
+    display: none;
+}
+.produit__slid{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 275px;
+}
+.produit__prinsipal{
+    margin: 10px;
+}
+.produit__prix{
+    text-align: center;
+}
+
+
+.mobil{
+  display: none;  
+}
+.tailQantite__xl{
+    width: 50%;
+}
+.tailQantite__x{
+width: 50px;
+border-radius: 10px;
+cursor: pointer;
+}
+}
+ 
+
+.toggle{
+    color: red !important;
+}
+
