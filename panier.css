@@ -1,0 +1,71 @@
+main{
+    margin: 5%;
+}
+h2{
+    font-size: 26px;
+}
+.articlChoisir__articl{
+    margin: 10px;
+}
+.description{
+    text-align: start;
+}
+.description p{
+    font-size: 10px;
+}
+.articlChoisir__prixSupprim{
+    justify-content: space-evenly;
+}
+.fa-trash:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+.resume h2{
+    text-align: center;
+}
+.prix-total{
+    font-size: 30px;
+}
+.caiss-btn{
+    margin: 20%;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px;
+    background-color: #000;
+    border-radius: 10px;
+}
+.caiss-btn:hover{
+background-color:#cd8e2e ;
+color: #fff;
+}
+.aufrelaivraison{
+    display: none;
+}
+.annonce{
+    display: none;
+}
+
+
+
+
+@media  (min-width: 600px) {
+    .aufrelaivraison{
+        display: block;
+    } 
+    .caissDesctop{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aufrelaivraison__titre{
+        color:#5c3903;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+    .caiss-btn{
+        margin: 40%;
+    }
+    .annonce{
+        display: block;
+    }
+}
